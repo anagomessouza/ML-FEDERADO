@@ -1,6 +1,6 @@
 # Descrição do Sistema de Aprendizado Federado: Cliente e Servidor
 
-Este sistema implementa um modelo de aprendizado federado utilizando a biblioteca Flower (`flwr`). O aprendizado federado permite que vários clientes treinem um modelo de aprendizado de máquina de forma colaborativa sem compartilhar dados entre si, promovendo a privacidade e a segurança dos dados.
+Este sistema implementa um modelo de aprendizado federado utilizando a biblioteca Flower (`flwr`). O aprendizado federado permite que vários clientes treinem um modelo de aprendizado de máquina de forma colaborativa sem compartilhar dados entre si, promovendo a privacidade e a segurança dos dados. O código foi desenvolvido para o 2º seminário da matéria de Sistemas Distribuídos.
 
 O código é composto por duas partes principais: o **cliente federado** e o **servidor federado**. Cada parte tem uma função específica no processo de aprendizado, como descrito abaixo.
 
@@ -81,7 +81,16 @@ O servidor federado é responsável por coordenar o processo de aprendizado fede
 
 https://www.kaggle.com/datasets/sacramentotechnology/sleep-deprivation-and-cognitive-performance/data
 
-Uma segunda database foi criada com base nessa para o cliente 2 
+Uma segunda database foi criada com base nessa para o cliente 2.
+O conjunto de dados investiga os efeitos da privação do sono no desempenho cognitivo e na regulação emocional, com base em um estudo de 2024 no Oriente Médio. Com 60 participantes, inclui informações sobre sono, cognição, estabilidade emocional e fatores demográficos e de estilo de vida. Os dados foram coletados por meio de testes padronizados, como Stroop Task, N-Back Test e PVT, sendo úteis para análises estatísticas, aprendizado de máquina e pesquisas em sono, saúde mental e cognição.
+Foram  utilizados no modelo as caracteristicas: horas de sono dormidas, score de qualidade de sono, sonolência diurna, e os alvos Tarefa de Vigilância Psicomotora e precisão do N -back. 
+
+**Apesar do caso de estudo ser interessante, é necessário reavaliar o modelo dos clientes pois o loss não está num nível satisfatório.**
 
 ---
-Este sistema é um exemplo de como utilizar o aprendizado federado com a biblioteca **Flower** para criar um modelo de aprendizado de máquina eficiente e seguro, preservando a privacidade dos dados.
+## **Links de leitura interessantes sobre ML Federado  📚** 
+
+- https://research.google/blog/federated-learning-collaborative-machine-learning-without-centralized-training-data/
+- https://cloud.google.com/architecture/cross-silo-cross-device-federated-learning-google-cloud?hl=pt-br
+- https://blog.nvidia.com.br/blog/o-que-e-aprendizagem-federada/
+- https://dcc.ufmg.br/aprendizado-federado-amplia-leque-de-aplicacoes-a-partir-da-conectividade-veicular/
