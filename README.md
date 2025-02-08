@@ -82,8 +82,9 @@ O servidor federado é responsável por coordenar o processo de aprendizado fede
 https://www.kaggle.com/datasets/sacramentotechnology/sleep-deprivation-and-cognitive-performance/data
 
 Uma segunda database foi criada com base nessa para o cliente 2.
-O conjunto de dados investiga os efeitos da privação do sono no desempenho cognitivo e na regulação emocional, com base em um estudo de 2024 no Oriente Médio. Com 60 participantes, inclui informações sobre sono, cognição, estabilidade emocional e fatores demográficos e de estilo de vida. Os dados foram coletados por meio de testes padronizados, como Stroop Task, N-Back Test e PVT, sendo úteis para análises estatísticas, aprendizado de máquina e pesquisas em sono, saúde mental e cognição.
-Foram  utilizados no modelo as caracteristicas: horas de sono dormidas, score de qualidade de sono, sonolência diurna, e os alvos Tarefa de Vigilância Psicomotora e precisão do N -back. 
+O conjunto de dados investiga os efeitos da privação do sono no desempenho cognitivo e na regulação emocional, com base em um estudo de 2024 no Oriente Médio. Com 60 participantes, inclui informações sobre sono, cognição, estabilidade emocional e fatores demográficos e de estilo de vida. 
+Os dados foram coletados por meio de testes padronizados, como Stroop Task, N-Back Test e PVT, sendo úteis para análises estatísticas, aprendizado de máquina e pesquisas em sono, saúde mental e cognição.
+Foram  utilizados no modelo as caracteristicas: horas de sono dormidas, score de qualidade de sono, sonolência diurna, e os alvos Tarefa de Vigilância Psicomotora, Tempo de Reação do PVT e precisão do N -back. 
 
 **Apesar do caso de estudo ser interessante, é necessário reavaliar o modelo dos clientes pois o loss não está num nível satisfatório.**
 
